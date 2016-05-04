@@ -1,0 +1,19 @@
+git config --global user.name "name"
+git config --global user.email "email"
+
+# create repository
+git init
+
+# add files to staging area
+git add
+
+# check status of files (untracked, tracked, committed)
+git status
+
+# commit changes
+git commit -m 'Initial commit'
+
+# git log aliases:
+git la
+git ll
+

@@ -1,0 +1,148 @@
+# move/rename files/directories
+mv
+
+# open file in pager
+less
+
+# shortcut for cd ..
+..
+
+# count lines in history containing 'brew'
+history | grep brew | wc
+
+# count lines in history starting with 'brew'
+history | grep '^brew' | wc
+
+# piping to pbcopy (pasteboard)
+ll | pbcopy
+
+
+
+cd notebook
+mkdir notebook
+cd galvanize/week01/
+ls thatmichaelpark.surge.sh/
+cd ..
+ls week01
+ls week00
+rmdir week11
+rmdir week1
+rd week1
+rmdir week2
+rm week2
+mkdir week2
+mkdir week11
+mkdir week1
+cd week01
+mv week1 week01
+mv precourse week00
+rm hienhangman.html
+cd galvanize/
+cd Projects/
+cd
+cd Library/Application\ Support/App\ Storecd/
+cd Library/Application\ Support/App\ Store/
+cd
+cd Default/Pepper\ Data/Shockwave\ Flash/WritableRoot/\#SharedObjects/JP5K9T75/
+cd Chrome/
+cd Google/
+cd Application\ Support/
+cd Library/
+tree -L 1
+cd /users/michaelpark/
+echo $PATH
+ll
+pwd
+cd /
+cd .
+tree -L 2
+tree
+brew install tree
+echo echo
+echo hi
+echo .
+echo ~
+open .
+open
+id
+ls -n
+ls -ltTr
+ls -ltT
+ls -lt
+ls -lT
+ls -T
+ls -l
+man ls
+cat .config/fish/config.fish
+ll .config/fish/functions/
+ll .config/fish/
+ls .config/fish/
+ls .config
+ls -hal
+ls -h
+ls -lh
+ls -hl
+ls Documents/
+ls Desktop/
+cd ~
+./
+.
+cwd
+groups
+whoami
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add blah
+git add index.html
+open index.html
+atom .
+touch index.html
+git init
+cd thatmichaelpark.surge.sh
+mkdir thatmichaelpark.surge.sh
+cd Pro
+mkdir ~/Projects
+surge -V
+npm install -g surge
+rm ~/Desktop/test.js
+ls ~/Desktop/
+node ~/Desktop/test.js
+atom ~/Desktop/test.js
+node
+node -v
+brew install node
+curl -fsSL https://git.io/vgqFH | sh
+git config --global user.email
+git config --global user.name
+git config --global user.email 'thatmichaelpark@gmail.com'
+git config --global user.name 'Michael Park'
+brew cleanup
+brew update
+brew up
+git --version
+brew install git
+which git
+echo
+which echo
+which brew
+which fish
+echo $EDITOR
+atom ~/.config/fish/config.fish
+clear
+brew info fish
+fish_update_completions
+curl -fsSL https://git.io/vgqFU | ruby
+chsh -s /usr/local/bin/fish
+chsh
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ls -G
+uname
+apm install --packages-file packages.txt
+cd Documents/
+cd Doc

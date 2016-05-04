@@ -13,7 +13,23 @@ git status
 # commit changes
 git commit -m 'Initial commit'
 
-# git log aliases:
+# git log aliases added on day 1:
 git la
 git ll
 
+git commit
+
+git mv
+
+git remote add <origin> <url.git>
+# <origin> and <url> are key/value pair
+
+git remote -v (verbose)
+# push the local branch (master) to branch (also master) on the origin remote.
+# first master (in the prompt) refers to the local branch
+# second master refers to the remote branch
+# the -u flag set the upstream (connects the two branches)
+~/P/g/w/notebook master ✔ git push -u origin master
+
+# once local is connected to remote, no longer need to specify remote or branch names:
+~/P/g/w/notebook master ✔ git push
